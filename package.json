@@ -1,0 +1,21 @@
+{
+  "name": "html-table",
+  "version": "1.0.0",
+  "description": "generate csv for html table",
+  "bin": {
+    "html-table": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tanjo",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "puppeteer": "^1.19.0"
+  },
+  "engines": {
+    "node": ">=11.13.0",
+    "npm": ">=6.10.3"
+  }
+}
