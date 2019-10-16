@@ -6,6 +6,21 @@
 npm install -g tanjo/html-table
 ```
 
+## Usage
+
+```
+html-table [URL] [options]
+```
+
+### Options:
+
+-  -V, --version                output the version number
+-  -s, --selector <string>      the target table's selector
+-  -w, --wait-for <number>      the time that waits for loading (default: 3000)
+-  -c, --click <query>          click selector before create csv (default: [])
+-  -p, --pagination <selector>  the next page button selector
+-  -h, --help                   output usage information
+
 ## CHANGELOG
 
 [here](./CHANGELOG.md)
