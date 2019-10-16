@@ -19,6 +19,7 @@ html-table [URL] [options]
 -  -w, --wait-for <number>      the time that waits for loading (default: 3000)
 -  -c, --click <query>          click selector before create csv (default: [])
 -  -p, --pagination <selector>  the next page button selector
+-  -l, --list                   list tables in site
 -  -h, --help                   output usage information
 
 ## CHANGELOG
